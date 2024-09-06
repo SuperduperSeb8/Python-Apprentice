@@ -17,7 +17,7 @@ tina.shape('turtle')                    # Set the shape of the turtle to a turtl
 tina.speed(2)                           # Make the turtle move as fast, but not too fast. 
 
 tina.forward(150)                       # Move tina forward by the forward distance
-tina.left(90)                           # Turn tina left by the left turn
+tina.left(90)                        # Turn tina left by the left turn
 
 tina.forward(150)                       # Continue the last two steps three more times
 tina.left(90)                           # to draw a square
@@ -27,6 +27,49 @@ tina.left(90)
 
 tina.forward(150)
 tina.left(90)
+tina.right(90)
+tina.forward(35)
+tina.left(90)
+tina.forward(150)
+tina.left(90)
+tina.forward(35)
+tina.right(180)
+tina.forward(35)
+tina.right(90)
+tina.forward(15)
+tina.left(90)
+tina.forward(20)
+tina.right(90)
+tina.forward(20)
+tina.right(90)
+tina.forward(20)
+tina.left(90)
+tina.forward(110)
+tina.left(180)
+tina.forward(10)
+tina.right(90)
+tina.forward(20)
+tina.left(90)
+tina.forward(20)
+tina.left(90)
+tina.forward(20)
+
+tina.left(180)
+tina.forward(20)
+tina.right(90)
+tina.forward(10)
+tina.left(90)
+
+tina.forward(70)
+tina.right(90)
+tina.forward(20)
+tina.right(90)
+tina.forward(10)
+tina.right(90)
+
+
+
 
 
 turtle.exitonclick()                    # Close the window when we click on it
+
