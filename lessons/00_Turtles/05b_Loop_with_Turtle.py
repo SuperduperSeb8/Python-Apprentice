@@ -66,6 +66,13 @@ tina.forward(20)
 tina.right(90)
 tina.forward(10)
 tina.right(90)
+tina.forward(20)
+
+tina.left(90)
+tina.forward(60)
+tina.right(90)
+tina.forward(10)
+tina.left(90)
 
 
 
