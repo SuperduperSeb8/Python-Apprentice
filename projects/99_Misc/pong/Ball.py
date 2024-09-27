@@ -12,7 +12,7 @@ class Ball():
         self.currently_intersects = False
         
     def update(self):        
-        if self.x + self.radius > width or self.x - self.radius < 0:
+        if self.x + self.radius  or self.x - self.radius < 0:
             self.x_speed = -self.x_speed
             
         if self.y + self.radius < 0:
@@ -22,19 +22,16 @@ class Ball():
         self.y += self.y_speed
         
     def draw(self):
-        push()
-        fill(255)
-        ellipse(self.x, self.y, 2 * self.radius, 2 * self.radius)
-        pop()
+        
+         
+        
 
-    def collision(self, paddle):
-        side = None
+     collision(self, paddle): side = None
 
-        # Temporary variables to set edges for testing
-        edge_x = self.x
-        edge_y = self.y
+        # Temporary variables to set edges for testing edge_x = self.x
+ edge_y = self.y
 
-        if self.x < paddle.x:
+ if self.x < paddle.x:
             edge_x = paddle.x                  # Ball is left of the paddle
             side = 'left'
         elif self.x > paddle.x + paddle.width:
