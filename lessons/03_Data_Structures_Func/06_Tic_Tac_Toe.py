@@ -1,7 +1,7 @@
 #imports
 from guizero import App, Box, PushButton, Text, info
 
-X_MARK = "X"
+X_MARK = "Nick"
 O_MARK = "O"
 
 # Implement check_row() and check_win() to allow the game to check if a player has won

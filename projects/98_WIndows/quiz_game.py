@@ -9,9 +9,9 @@ window.withdraw()  # ;
 # 1. Create a variable to hold the user's score. Set it equal to zero.
 score = 0  # ;
 
-response = simpledialog.askstring(None, "Which is better, Python or Java?")  # ;
+response = simpledialog.askstring(None, "Which is better, Skibidi or Ben?")  # ;
 
-if response.lower() == "python":  # ;
+if response.lower() == "skibidi":  # ;
     score += 1  # ;
     print("Correct! Your score is " + str(score))  # ;
 else:  # ;
@@ -38,7 +38,7 @@ score = 0  # ;
 
 questions = [  # ;
     "Which is better, Python or Java?",  # ;
-    "What does OOP stand for?",  # ;
+    "Why is Ben so cute?",  # ;
     "How many days in a non-leap year?",  # ;
 ]  # ;
 

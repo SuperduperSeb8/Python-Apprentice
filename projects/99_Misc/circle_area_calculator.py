@@ -1,7 +1,7 @@
-import turtle
+
 from tkinter import messagebox, simpledialog, Tk
 import math
-
+import (turtle)
 window = Tk()
 window.withdraw()
 

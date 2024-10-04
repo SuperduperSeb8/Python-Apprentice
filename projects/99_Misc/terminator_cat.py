@@ -67,14 +67,14 @@ window = turtle.Screen()
 
 # 2. Call the setBackground() function with your variable inside of the parenthesis
 #    for example, setBackground("cat.gif")
-setBackground("bigEyedCat.gif")  # ;
+setBackground("Cat.gif")  # ;
 
 # 3. Make a new turtle
 myTurtle = turtle.Turtle()  # ;
 
 # 4. Set the turtle color and pen color to red (or any color you want)
 #    using .color('red', 'red')
-myTurtle.color("red", "red")  # ;
+myTurtle.color("green", "green")  # ;
 
 # 5. Set the turtle width to 0 so no outlines are drawn
 myTurtle.width(0)  # ;
@@ -90,8 +90,8 @@ myTurtle.speed(0)  # ;
 # 8. After you've found the x and y for the eyes create 2 eye variables and initialize them:
 #    leftEye = Eye(x=-34, y=11, radius=30)
 #    rightEye = Eye(x=40, y=-5, radius=30)
-leftEye = Eye(x=-34, y=11, radius=30)  # ;
-rightEye = Eye(x=40, y=-5, radius=30)  # ;
+leftEye = Eye(x= 22, y=-25, radius=20)  # ;
+rightEye = Eye(x=-120, y=-20, radius=20)  # ;
 
 # 9. Call the .draw() method on both eye variables
 leftEye.draw()  # ;
@@ -99,6 +99,7 @@ rightEye.draw()  # ;
 
 # ===================== DO NOT EDIT THE CODE BELOW ============================
 window.onclick(screenClicked)
-window.onkeypress(keyPressed, "space")
+window.onkeypress(keyPressed, "w")
+window.onkeypress(keyPressed, "b")
 window.listen()
 turtle.done()
