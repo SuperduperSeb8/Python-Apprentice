@@ -14,7 +14,7 @@ BLACK = (0, 0, 0)
 # Game settings
 PLAYER_SIZE = 50
 GRAVITY = 1
-JUMP_STRENGTH = 15
+JUMP_STRENGTH = 70
 
 # Initialize screen
 screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
@@ -26,13 +26,13 @@ player_y_velocity = 0
 is_jumping = False
 
 # Main game loop
-running = True
+running = False
 clock = pygame.time.Clock()
 
 while running:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
-            running = False
+            running = True
 
     # Player jump
     keys = pygame.key.get_pressed()
@@ -54,6 +54,6 @@ while running:
     pygame.draw.rect(screen, BLACK, player)
 
     pygame.display.flip()
-    clock.tick(30)
+    clock.tick(1000)
 
 pygame.quit()

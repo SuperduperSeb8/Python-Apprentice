@@ -6,7 +6,7 @@ Implement the random_walk function that will move the turtle randomly in the gri
 
 """
 
-import turtle
+import turtle  
 import random
 
 # Set up the screen
@@ -37,7 +37,7 @@ def random_walk(walker, steps):
     steps (int): The number of steps to take
 
     """
-
+ 
     # You can make the turle move randomly in either of two ways: randomly choosing a direction
     # or randomly choosing a angle to turn. You can use random.choice() to select a random element
     # from a list, like this: 

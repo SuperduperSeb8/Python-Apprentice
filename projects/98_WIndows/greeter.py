@@ -1,4 +1,4 @@
-from tkinter import messagebox, simpledialog, Tk
+Dfrom tkinter import messagebox, simpledialog, Tk
 
 # Create a new window variable, window = Tk()
 window = Tk()  # ;
@@ -8,7 +8,7 @@ window.withdraw()  # ;
 
 # Ask the user for their name and save it to a variable
 # name = simpledialog.askstring(title='Greeter', prompt="What is your name?")
-name = simpledialog.askstring(title="Question", prompt="What is your name?")  # ;
+name = simpledialog.askstring(title="Question", prompt="Finish the")  # ;
 
 # Show a message box with your message using the .showinfo() method
 messagebox.showinfo(message="Hello " + name + "!!!")  # ;

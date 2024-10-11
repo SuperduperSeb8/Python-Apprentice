@@ -37,12 +37,12 @@ messagebox.showinfo(message="Your final score is " + str(score))  # ;
 score = 0  # ;
 
 questions = [  # ;
-    "Which is better, Python or Java?",  # ;
+    "Which is better, Ben or John Pork",  # ;
     "Why is Ben so cute?",  # ;
-    "How many days in a non-leap year?",  # ;
+    "Palyo Paylo on the wall who is the skibidiest of them all??",  # ;
 ]  # ;
 
-answers = ["python", "object orientated programming", "366"]  # ;
+answers = ["John Pork", "He got that W rizz", "Peylo Jr OF course"]  # ;
 
 # Loop through each question in the questions list and ask the user for their response to each one using the simpledialog.askstring() method and an if statement to check if their response is correct or not and change the score accordingly using the score variable you created earlier.  # ;
 for i in range(len(questions)):  # ;
