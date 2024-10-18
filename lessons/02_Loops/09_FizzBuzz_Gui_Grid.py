@@ -1,4 +1,4 @@
-"""Fizzbuzz Grid
+"""Fizzbuzz Gri
 
 We're going to use a Windowing library, guizero, to create a 10x10 grid of
 numbers, with each number in a separate cell, but we're also going to set the

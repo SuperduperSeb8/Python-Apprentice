@@ -23,6 +23,7 @@ messagebox.showinfo(message="Your final score is " + str(score))  # ;
 
 # // 2. Ask the user a question
 
+
 # // 3. Use an if statement to check if their answer is correct
 
 # // 4. if the user's answer was correct, add one to their score
@@ -42,7 +43,7 @@ questions = [  # ;
     "Palyo Paylo on the wall who is the skibidiest of them all??",  # ;
 ]  # ;
 
-answers = ["John Pork", "He got that W rizz", "Peylo Jr OF course"]  # ;
+answers = ["John Pork", "He got that W rizz", "Peylo Jr"]  # ;
 
 # Loop through each question in the questions list and ask the user for their response to each one using the simpledialog.askstring() method and an if statement to check if their response is correct or not and change the score accordingly using the score variable you created earlier.  # ;
 for i in range(len(questions)):  # ;
@@ -55,7 +56,7 @@ for i in range(len(questions)):  # ;
         score -= 1  # ;
         messagebox.showerror(message="WRONG! It's " + answers[i] + " of course!")  # ;
 
-messagebox.showinfo(message="Your final score is " + str(score))  # ;
+messagebox.showinfo(message="Ben was the skibidi sigma ohio baby gronk from the screen to the ben to the ben to the ben " + str(score))  # ;
 
 # Run the window's .mainloop() method
 window.mainloop()  # ;
