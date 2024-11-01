@@ -37,6 +37,8 @@ tina.left(90)
 tina.circle(2000)
 tina.goto(201,-12)
 tina.circle(600)
+tina.left(90)
+
 tina.end_fill()
 colors = [ 'red', 'blue', 'black', 'orange']    # define a list of colors
 

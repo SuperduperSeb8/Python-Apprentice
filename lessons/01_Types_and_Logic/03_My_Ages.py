@@ -1,35 +1,53 @@
 
-"""
-Am I Big Yet?
+# Run Me!
+# Assign to some variables. 
+age = 14
+bank_account = 159.99
+name = "John"
+colors = ["red", "blue", "green"]
 
-Ask the user's age then use an if-elif-else statement to 
-tell the user what age groups the user is in. The groups are:
+print("Age   : ", type(age))
+print("Bank  : ", type(bank_account))
+print("Name  : ", type(name))
+print("Colors: ", type(colors))
 
-0-2: Baby
-3-5: Toddler
-6-12: Child
-13-19: Teen
-20-64: Adult
-65+: Senior
+# add type integers
 
-Except, if the user is the same age as you, print "You are pretty awesome!"
+a = 10
+b = 20
 
-Here is how you ask the user's age in integer format.  The first argument is 
-the title of the window, the second is the message to the user.
+print("a + b = ", a + b)
 
-age = simpledialog.askinteger("Your Age", "How old are you?") 
+# add '10' to '20 as strings
 
-Or, you could ask the user for a float with simpledialog.askfloat() 
+a = "10"
+b = "20"
 
-age =  simpledialog.askfloat("Your Age", "How old are you?")
+print("a + b = ", a + b) # Wait, what????
+
+a = 10
+b = "20"
+print("a + b = ", a + b)
+
+# String to integer and float
+
+print('int', int('1305'))
+print('int',float('1305.32'))
+
+# The int() function can also take a second argument, which is the base of the number to be converted.
+# so we can convert all of the other bases
+
+print('octal',int('45', 8))
+print('octal',int('0o45', 8))
+
+print('hex',int('25', 16))
+print('hex',int('0x25', 16))
+
+print('binary', int('100101', 2))
+print('binary', int('0b100101', 2))
 
 
-Here is how you show the user a message window. The first parameter is the title of the window, 
-the second is the message to show the user.
-
-messagebox.showinfo('What you are', "You are a baby.")
-
-"""
+print(f"Name: {name}, Age: {age}, Bank Account: {bank_account}, Colors: {colors}")
 
 from tkinter import messagebox, simpledialog, Tk # import required modules
 
