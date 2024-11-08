@@ -63,6 +63,10 @@ tina.end_fill()
 tina.left(90)
 
 tina.color('brown')
+for i in ['a','b','c','d']:
+    print(i)
+for c in "Hello World!":
+    print(c)
 tina.goto
 
 

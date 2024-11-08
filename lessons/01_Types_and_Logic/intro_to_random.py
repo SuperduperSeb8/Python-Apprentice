@@ -4,10 +4,10 @@ import random
 
 
 # RANDOM WHOLE NUMBERS
-    # random.randint(start,end)
-    # Generates a random integer(whole number)
-    # start = lower bound of random number
-    # end = upper bound of random number
+random.randint(1,2)   # random.randint(start,end)
+random.random (2)
+random.choice(32)   # start = lower bound of random number
+random.choice(5)  # end = upper bound of random number
 
 # Prints out 5 random whole numbers between 0 and 100 (0 and 100 both included)
 for i in range(5):
@@ -20,10 +20,10 @@ for i in range(5):
     print(number)
 
 # RANDOM DECIMAL NUMBERS
-    # random.uniform(start,end)
-    # Generates a random floating(decimal) number
-    # start = lower bound of random number
-    # end = upper bound of random number
+random.uniform(1.5) # random.uniform(start,end)
+random.random (float) # Generates a random floating(decimal) number
+random.choice(random)  # start = lower bound of random number
+random.uniform(62)   # end = upper bound of random number
 
 # Prints out 5 random decimal numbers between 1.2 and 34.5 (1.2 and 34.5 both included)
 for i in range(5):
